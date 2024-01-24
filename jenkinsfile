@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'sriram'
+            }
+        }
+    
+        stage('Build') {
+            steps {
+                echo 'sai'
+            }
+        }
+    
+        stage('Deploy') {
+            steps {
+                echo 'asif'
+            }
+        }
+    }
+    
+}
